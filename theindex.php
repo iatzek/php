@@ -12,7 +12,7 @@
         $c = '3.0';
         $a = doubleval($c);
         
-	if ($a == $c)
+	if ($a === $c)
 	    echo('$a i $c są równe (?)');
 	else
 	    echo('$a i $ nie są równe...');
