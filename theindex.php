@@ -12,10 +12,11 @@
         $c = '3.0';
         $a = doubleval($c);
         
-        echo("to jest zmienna: " . $a ."\n");
-        echo("to też: $a\n");
-        echo('a to nie $a' . "\n");
-        echo('</pre>');
+	if ($a == $c)
+	    echo('$a i $c są równe (?)');
+	else
+	    echo('$a i $ nie są równe...');
+
         ?>
     </body>
 </html>
