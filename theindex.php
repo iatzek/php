@@ -8,7 +8,10 @@
     <body>
         <?php
         echo('<pre>');
-        $a=3;
+        
+        $c = '3.0';
+        $a = doubleval($c);
+        
         echo("to jest zmienna: " . $a ."\n");
         echo("to też: $a\n");
         echo('a to nie $a' . "\n");
