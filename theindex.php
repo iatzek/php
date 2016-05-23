@@ -7,11 +7,12 @@
     </head>
     <body>
         <?php
-        
+        echo('<pre>');
         $a=3;
-        echo("to jest zmienna: " . $a);
-        echo("to też: $a");
-        echo('a to nie $a');
+        echo("to jest zmienna: " . $a ."\n");
+        echo("to też: $a\n");
+        echo('a to nie $a' . "\n");
+        echo('</pre>');
         ?>
     </body>
 </html>
