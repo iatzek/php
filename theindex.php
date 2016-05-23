@@ -9,7 +9,7 @@
         <?php
         echo('<pre>');
         
-        $c = '3.0';
+        $c = '3.0001';
         $a = doubleval($c);
         
 	if ($a == $c)
